@@ -15,6 +15,7 @@
 		6DA485B01C48C1360036EE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA485AE1C48C1360036EE8B /* LaunchScreen.storyboard */; };
 		6DA485BB1C48C1360036EE8B /* QRCoreStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA485BA1C48C1360036EE8B /* QRCoreStudyTests.m */; };
 		6DA485C61C48C1360036EE8B /* QRCoreStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA485C51C48C1360036EE8B /* QRCoreStudyUITests.m */; };
+		6DA485D51C48C1620036EE8B /* QRCoreImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA485D41C48C1620036EE8B /* QRCoreImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6DA485C11C48C1360036EE8B /* QRCoreStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCoreStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA485C51C48C1360036EE8B /* QRCoreStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCoreStudyUITests.m; sourceTree = "<group>"; };
 		6DA485C71C48C1360036EE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA485D31C48C1620036EE8B /* QRCoreImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCoreImageView.h; sourceTree = "<group>"; };
+		6DA485D41C48C1620036EE8B /* QRCoreImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCoreImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		6DA4859F1C48C1360036EE8B /* QRCoreStudy */ = {
 			isa = PBXGroup;
 			children = (
+				6DA485D31C48C1620036EE8B /* QRCoreImageView.h */,
+				6DA485D41C48C1620036EE8B /* QRCoreImageView.m */,
 				6DA485A31C48C1360036EE8B /* AppDelegate.h */,
 				6DA485A41C48C1360036EE8B /* AppDelegate.m */,
 				6DA485A61C48C1360036EE8B /* ViewController.h */,
@@ -275,6 +280,7 @@
 			files = (
 				6DA485A81C48C1360036EE8B /* ViewController.m in Sources */,
 				6DA485A51C48C1360036EE8B /* AppDelegate.m in Sources */,
+				6DA485D51C48C1620036EE8B /* QRCoreImageView.m in Sources */,
 				6DA485A21C48C1360036EE8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

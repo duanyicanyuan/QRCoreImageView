@@ -61,7 +61,7 @@
         if (numComponents == 4)
         {
             const CGFloat *components = CGColorGetComponents(colorRef);
-            codeImage = [self imageBlackToTransparent:codeImage withRed:components[0] andGreen:components[1] andBlue:components[2]];
+            codeImage = [self imageBlackToTransparent:codeImage withRed:components[0] * 255 andGreen:components[1] * 255 andBlue:components[2] * 255];
         }
     }
     return codeImage;
@@ -91,7 +91,7 @@
 
 // 根据qrString的URL网址生成CIImage图片
 - (CIImage *)createQRForString:(NSString *)qrString {
-    // Need to convert the string to a UTF-8 encoded NSData object
+    // NSString -> NSData
     NSData *stringData = [qrString dataUsingEncoding:NSUTF8StringEncoding];
     // Create the filter
     CIFilter *qrFilter = [CIFilter filterWithName:@"CIQRCodeGenerator"];
